@@ -32,8 +32,8 @@ class Solution:
 
         # TODO: Write code below to return a bool with the solution to the prompt
         counter = 0
-        for i in range(len(b)):
-            if i in a:
+        for letter in b:
+            if letter in a:
                 counter += 1
         
         if counter == len(b):
